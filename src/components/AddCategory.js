@@ -23,7 +23,8 @@ export const AddCategory = ({setCategories}) => {
             <input
                 type="text"
                 value={ inputValue }
-                onChange={handleInputChange}            
+                onChange={handleInputChange}    
+                placeholder='Welcome'        
             />
         </form>
     )
